@@ -1,0 +1,30 @@
+Metrion Inspection and Evaluation License
+Copyright (c) 2026 Metrion contributors. All rights reserved.
+
+Scope
+This license applies to first-party files in this repository that do not carry
+an explicit, separate license. Files with SPDX license identifiers, included
+license notices, and third-party dependencies remain governed by their own
+licenses. Nothing here restricts rights already granted under those licenses.
+
+Permission
+You may access, download and make private copies of the covered files solely
+to inspect, review and evaluate the implementation. You may build the files,
+run the provided tests, use read-only public interfaces for evaluation, and
+make private local modifications for those purposes. Retain this notice.
+
+Restrictions
+Except for the permissions above, rights to distribute, sublicense, sell,
+commercially exploit, operate a production service using, or publicly deploy
+the covered files are reserved. Separate written permission is required.
+Repository-hosting permissions required by the hosting platform's applicable
+terms remain unaffected. No trademark rights are granted.
+
+No warranty
+THE COVERED FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+NONINFRINGEMENT, SECURITY OR ERROR-FREE OPERATION. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDERS AND CONTRIBUTORS ARE NOT
+LIABLE FOR ANY CLAIM, DAMAGE OR OTHER LIABILITY ARISING FROM THE FILES OR
+THEIR USE. Nothing in this license excludes liability that cannot lawfully
+be excluded.
