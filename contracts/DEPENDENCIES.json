@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "toolchain": {
+    "solidity": "0.8.26",
+    "evm_version": "cancun",
+    "optimizer": true,
+    "optimizer_runs": 200,
+    "via_ir": false,
+    "foundry_version": "1.7.1",
+    "foundry_upstream_commit": "4072e48705af9d93e3c0f6e29e93b5e9a40caed8",
+    "node_tested": "24.x",
+    "node_documented_minimum": "22"
+  },
+  "distribution": "Dependency source is not included in this snapshot. The installer fetches only the exact required files and upstream notices for local builds; every installed file is SHA-256 checked.",
+  "dependencies": [
+    {
+      "name": "forge-std",
+      "upstream": "https://github.com/foundry-rs/forge-std",
+      "revision": "f3dae6e6ee381f25eb6a246f7da9b85c91a68219",
+      "archive_url": "https://codeload.github.com/foundry-rs/forge-std/tar.gz/f3dae6e6ee381f25eb6a246f7da9b85c91a68219",
+      "archive_prefix": "forge-std-f3dae6e6ee381f25eb6a246f7da9b85c91a68219/",
+      "install_path": "lib/forge-std",
+      "licenses": [
+        "MIT",
+        "Apache-2.0"
+      ],
+      "files": [
+        {
+          "path": "LICENSE-APACHE",
+          "sha256": "50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "LICENSE-MIT",
+          "sha256": "6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "src/Base.sol",
+          "sha256": "76b05dda37981797d3d403f29fc6cad79b46e2fc11da47d649ff13acb69158b2",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdAssertions.sol",
+          "sha256": "203de35565c3d68b6599f84e88068f79c23b53a80d18c46056e85d4c5f48613c",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdChains.sol",
+          "sha256": "981b7ce12f4bc3193c7914c68f51be74d1d03c33732db894f5d36ad8025ab4f5",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdCheats.sol",
+          "sha256": "988843996b3e8ebab594c659fba9502bab437220f84e7ded9a9e3f6e730d358e",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdConstants.sol",
+          "sha256": "17dfd996881264de1e6af6697a3dc7a56ae8ff0717e4cb4f1685bd7fb3a45147",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdError.sol",
+          "sha256": "c1f7271f11a44628810ef6beb2da0c43add131ff9cfcac4d7acd633c269ccf7d",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdInvariant.sol",
+          "sha256": "7d3a62087c7d06766e99f8e4f4e50997b0ff8730fb304986f2c4cd895a67fbbd",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdJson.sol",
+          "sha256": "433c8ca2b3ae87e2f8a5b5902dc55446528ffd6b8e1af8a333f2eff4403e5620",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdMath.sol",
+          "sha256": "7224cea66fc06c7a9d303084cccb14eaedffe4b21b3f9695d06dc590d2894d7d",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdStorage.sol",
+          "sha256": "cd3e30147de813618446c9eed8c07b8c14ee6989c3b5ad608f72af3b17adedf9",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdStyle.sol",
+          "sha256": "903ea6f4e4aa31e416b5043abecc09ced41dc78c9ce9dabb5c745337ee13139d",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdToml.sol",
+          "sha256": "682e9c74bd02de5df7be595d27fa44eeaf0a5d96ad5c2db507065386d35eb433",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/StdUtils.sol",
+          "sha256": "52d713d886305184e7ed3b3a2e5941ea1440f071d9c9a4d6fea618135e1d3f67",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/Test.sol",
+          "sha256": "6ac6a04a9723f3b51a86fcd0c4cf02e8011f112df052a8eea8e986d85b0bb3d7",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/Vm.sol",
+          "sha256": "cd0cd6ce532f99e9d6e21a97a3f188804537ceb91540226b5e7e922b2e3b4923",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/console.sol",
+          "sha256": "894dc6e40fe62d887df6243112d8c775df2db60babc3024ee04a5564b90af64d",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/console2.sol",
+          "sha256": "62d8ccbd118fec4f99c5e847322d6ca0d7fbe6a0a16e5a26b0590869fcd69357",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IMulticall3.sol",
+          "sha256": "890a5b361034daa6006b3ba2275e743cd6197c4d81e3df5732cdce731d3c0868",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/safeconsole.sol",
+          "sha256": "fd74d8ed377e1470217cd6dce7699dcbc4e79b3893f17ae2a298c0e7e4418181",
+          "license": "MIT OR Apache-2.0",
+          "reason": "Required Solidity import dependency."
+        }
+      ]
+    },
+    {
+      "name": "v4-periphery",
+      "upstream": "https://github.com/Uniswap/v4-periphery",
+      "revision": "0c4e5bd3715ce2e72fd7609a1e2835f8300baf7b",
+      "archive_url": "https://codeload.github.com/Uniswap/v4-periphery/tar.gz/0c4e5bd3715ce2e72fd7609a1e2835f8300baf7b",
+      "archive_prefix": "v4-periphery-0c4e5bd3715ce2e72fd7609a1e2835f8300baf7b/",
+      "install_path": "lib/v4-periphery",
+      "licenses": [
+        "MIT"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "66eb4bd7506d0a33cc953ed77c1fee2fe6a34d8c0ac40d4e852e6bfbf754f80e",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "src/base/BaseV4Quoter.sol",
+          "sha256": "78c4d90510c21e90dfd20242bf42bf79ed911d172a6f5fa67912cee936a2632a",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/base/ImmutableState.sol",
+          "sha256": "d3ef34f9c00fae08ec1eb24aa341d5d916c4d6d62e6c2118ef4afe9c7470fde5",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/base/SafeCallback.sol",
+          "sha256": "0c25eef89a860e579d6e26f53e32240da787bd75827d7833b6f29e63af87b571",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IImmutableState.sol",
+          "sha256": "86f06a1f388f91ee0185495cb5d2912d564f73fabb163b3767e9c292c5069276",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IMsgSender.sol",
+          "sha256": "cb96ee72c46755a67f9ca304df192365ae7c3923eaab9539f0ce74a88de10cf7",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IV4Quoter.sol",
+          "sha256": "93041b7c8ef2587b52c4e0aea6183924b26079f9d822c451cc01f7f2efab99c5",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/lens/V4Quoter.sol",
+          "sha256": "0466f1e83d6362836c0b5256996d13e222a33a2b2810d7992d32a84753a8c0ef",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/Locker.sol",
+          "sha256": "aa0481cc66c87ab579438728dbeaee5bf351eac37e4876f0ab899d8c7f7bdbeb",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/PathKey.sol",
+          "sha256": "0c00bae5a64829334a0b5d5541807faf7d18dff5a667cd74cadf9effaf5f0885",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/QuoterRevert.sol",
+          "sha256": "954b9e18c2b4d9b48f3d1d761c9d68dd94b995ff871ab561884a803bc09e6c75",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        }
+      ]
+    },
+    {
+      "name": "v4-core",
+      "upstream": "https://github.com/Uniswap/v4-core",
+      "revision": "59d3ecf53afa9264a16bba0e38f4c5d2231f80bc",
+      "archive_url": "https://codeload.github.com/Uniswap/v4-core/tar.gz/59d3ecf53afa9264a16bba0e38f4c5d2231f80bc",
+      "archive_prefix": "v4-core-59d3ecf53afa9264a16bba0e38f4c5d2231f80bc/",
+      "install_path": "lib/v4-periphery/lib/v4-core",
+      "licenses": [
+        "MIT",
+        "BUSL-1.1"
+      ],
+      "files": [
+        {
+          "path": "licenses/BUSL_LICENSE",
+          "sha256": "cd5241d8e1afe7098fa0f21059f7153348fdd25dbae5a8383a5f1dd2eb590321",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "licenses/MIT_LICENSE",
+          "sha256": "b7b0c4379346af0701f5e4df9c861295d4a3af91dc3b15eb4356ebc571303df9",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "src/ERC6909.sol",
+          "sha256": "0f1bf94844851b561ae53d57263366d18f4c4431eb47096871e8715837c6ec9d",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/ERC6909Claims.sol",
+          "sha256": "6fa9989899398646fd7c33f837254a69e7c75b77af120970ede397c3d0fbdc37",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/Extsload.sol",
+          "sha256": "ac157c05d62562eed212cdf290046a85d192e7b1f8aba69c3ce358b0ebac4279",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/Exttload.sol",
+          "sha256": "386b5618307a20144a44308b81188c7755a6c279db6c5824cf63a910864324d4",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/NoDelegateCall.sol",
+          "sha256": "525bf4df92c4ac0fd582e1b6ac18fdfb5d147d410f38f19231e4c9a469187415",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/PoolManager.sol",
+          "sha256": "3b6ab111dadf613e3cfd617e4b1c6ab75b5445cd15cbe52d7c6207fc02449717",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/ProtocolFees.sol",
+          "sha256": "bdabfbdfa0d8692ee187ffab948c295c2c6ebcc2dcf86e552fba3491309843c6",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IExtsload.sol",
+          "sha256": "9421ef4ba198d94058cd9a4c9fd2d663c61fc682f7dafa449a873456853f0025",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IExttload.sol",
+          "sha256": "c21643d2c7f48d2d2407438a64a3ff0f376324cf6a0c62608977713652308c9e",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IHooks.sol",
+          "sha256": "6eb35c9c598eb932e963219f1ff180748bc4c30ac6a02d924893b3c29abb1d73",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IPoolManager.sol",
+          "sha256": "a98405333567e4ab344489728014795721cf0071c151536377d2fcc986e0600c",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/IProtocolFees.sol",
+          "sha256": "807d68adea106ec2aa51a8009155de09ebfe09e1ee7053d5a5ae448d7e840654",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/callback/IUnlockCallback.sol",
+          "sha256": "2e4a514730654da2e08a82eff5b3eabae12dc1c6198951396e1d466d4c0e223e",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/external/IERC20Minimal.sol",
+          "sha256": "5e966a2d22b3b234a56af4b17e36bf7be90f9b29b1ddb6a15bfefc0b6dab4282",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/interfaces/external/IERC6909Claims.sol",
+          "sha256": "1cd65496c829036bc6aee67bc71363ab5fb6989c65e793087d0e1e2379f7d7d8",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/BitMath.sol",
+          "sha256": "e8a45eb3d57f9427fc47bbb2543c1a6a5f394113b378123ac7ca9f113a7502b4",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/CurrencyDelta.sol",
+          "sha256": "dfbb3d232c2d52bb09c8dcbb38b4a8fd16c616b8e6bf49e6f4ee948760530f7b",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/CurrencyReserves.sol",
+          "sha256": "b38f1d3807d90bbccb865c0d96caf1ef92d6df9b69adbbe43b1d12e1241523c9",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/CustomRevert.sol",
+          "sha256": "9d3dbe6b742cb1ac30f57df89d879ade9649389de1165fc637114bd062d39fca",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/FixedPoint128.sol",
+          "sha256": "1ca2f55160697b73bd66fd27c8724d79a57108121ce1e8a0ab8b79f38bb58fbb",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/FixedPoint96.sol",
+          "sha256": "66ee26d4fb3ac639124bdfa27d3256d196970997fa127c09e9bf7154e30d4590",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/FullMath.sol",
+          "sha256": "a9607255a6fd604d9c92f6b7416811c38b9d86e5dfdb0c345a494ebd35f7a4a3",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/Hooks.sol",
+          "sha256": "297d577998cdede64d48b47b12f15e4f442eea032fbb9676bb3c2f89da89b83c",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/LPFeeLibrary.sol",
+          "sha256": "e96c3fa7deac991dc09b6c5e560a340d01d6c68ccba483d4b29f8a66e5aa44e0",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/LiquidityMath.sol",
+          "sha256": "67a39e58732340af4870342ba9230691f35501d89ed8725ca1b338deaa0eb26a",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/Lock.sol",
+          "sha256": "29cd41a53de22514164e638e7bc965ccf4d9f34b455b43a1a15e06a8cb86e7f1",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/NonzeroDeltaCount.sol",
+          "sha256": "0ae35ca64da2527b4e1f7afa4ca10c4b65af952dc473c33b6663101e8d199f40",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/ParseBytes.sol",
+          "sha256": "6a6f3d1cec0143fd70ea68c34e6dce3bde72f368b213f1a225ada23dbfd99bb8",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/Pool.sol",
+          "sha256": "59c493035ad25d56f24a457e8b40d9d1e3784504b8ff13d171db1eb25c6f128e",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/Position.sol",
+          "sha256": "3dc4e2ad1564fa94eddf3ff06ce9ac592c9d578ea64ca194050382da454c8fcb",
+          "license": "BUSL-1.1",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/ProtocolFeeLibrary.sol",
+          "sha256": "f8d96d9c8b5d12ab927b34551699bd7086750475f70254c9505e636f2cafe56a",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/SafeCast.sol",
+          "sha256": "c1a815a41607be5b4c86ca588a951f368156da8ee21bdfc18b5d51b58a0f27be",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/SqrtPriceMath.sol",
+          "sha256": "42440c21bbab86c7eed4716b281ed5ca281cf14af8b5e06dc6dc3bc6864bcfdf",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/StateLibrary.sol",
+          "sha256": "eebdbc1b6e431072ce5521b9e1b603d43831e3b6e062743e6665e070d5cf8a1a",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/SwapMath.sol",
+          "sha256": "eb3971ea0ba84ff0a01f2fbe43f62f9c393121ef1724774ed3f3ab7760780e4a",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/TickBitmap.sol",
+          "sha256": "19b25dccfac8bd90f9d615fb182547eb7b5908a5cbf21a1c5920b92c47383cb6",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/TickMath.sol",
+          "sha256": "272d4f6d3ff9ae33596ebcdb84a71a3c2d4542ae8fb5c88ddf1aca8043f5d06b",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/TransientStateLibrary.sol",
+          "sha256": "9835fca9df8b3f649def66835c5d7ee68de6a6cbe92bf255eb5d8b92a6a8d60e",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/libraries/UnsafeMath.sol",
+          "sha256": "2de236e7ca0b9572a6b0184557565b6fd54e177224e202c727fe248785ede427",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/test/PoolModifyLiquidityTest.sol",
+          "sha256": "43be2141b83cae264fa9d5278c8a061d4074698458822358a7c09a9748741e9a",
+          "license": "UNLICENSED",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/test/PoolSwapTest.sol",
+          "sha256": "1bfd112087ec3abc30ea92cef6e39c9fd502502c9f28dac3d4df9fee7155e6d2",
+          "license": "UNLICENSED",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/test/PoolTestBase.sol",
+          "sha256": "e3ab1cd908af2302b1abfdfa327ea344c297fb879312164392d7020321943833",
+          "license": "UNLICENSED",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/BalanceDelta.sol",
+          "sha256": "320d9c13dec135c3903729e66d3a1040fe86d537a7ee53728915012ca183af32",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/BeforeSwapDelta.sol",
+          "sha256": "6aee06f1553e879f5909e8f4c0eac26ec23dd4821a7e56e4d5077db39a227e12",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/Currency.sol",
+          "sha256": "ba6726fd24fbc66848208dfbb2899116c10729c505e6e5552316ac2444f1dfc3",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/PoolId.sol",
+          "sha256": "548424ac50ad58212545da70207283fb8990731578c115c85d5acbcb0e1d3c9f",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/PoolKey.sol",
+          "sha256": "99e1afe285b5c614ebc9586ab5196db9d24a63fd924a449f5d99f490a6a6d6a9",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/PoolOperation.sol",
+          "sha256": "cf72ad0c3e5e91662029e862acd841fabce8753040b0d4e802dee64ef1157232",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/types/Slot0.sol",
+          "sha256": "378b45486644dc7e49726358e83d0e2fffdaee088d18cac1a3df00d02c3635b4",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "test/utils/CurrencySettler.sol",
+          "sha256": "afe4d7de04f55f35f25bae046a96baa4137709b9df13d90b76c643a1317df6b8",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        }
+      ]
+    },
+    {
+      "name": "openzeppelin-contracts",
+      "upstream": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+      "revision": "dbb6104ce834628e473d2173bbc9d47f81a9eec3",
+      "archive_url": "https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/tar.gz/dbb6104ce834628e473d2173bbc9d47f81a9eec3",
+      "archive_prefix": "openzeppelin-contracts-dbb6104ce834628e473d2173bbc9d47f81a9eec3/",
+      "install_path": "lib/v4-periphery/lib/v4-core/lib/openzeppelin-contracts",
+      "licenses": [
+        "MIT"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "0e05b4f45c8769ece14ba2d202bf6f5ed7132600b642c981266f7255e0187ea3",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "contracts/proxy/Clones.sol",
+          "sha256": "aa3a7affee5a2bc8adb1d8bfca65ce3d6ebda77cdfbf5b6a0b68a73faef27ec5",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "contracts/token/ERC20/IERC20.sol",
+          "sha256": "6f2faae462e286e24e091d7718575179644dc60e79936ef0c92e2d1ab3ca3cee",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "contracts/token/ERC20/extensions/IERC20Permit.sol",
+          "sha256": "912509e0e9bf74e0f8a8c92d031b5b26d2d35c6d4abf3f56251be1ea9ca946bf",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "contracts/token/ERC20/utils/SafeERC20.sol",
+          "sha256": "471157c89111d7b9eab456b53ebe9042bc69504a64cb5cc980d38da9103379ae",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "contracts/utils/Address.sol",
+          "sha256": "b3710b1712637eb8c0df81912da3450da6ff67b0b3ed18146b033ed15b1aa3b9",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "contracts/utils/ReentrancyGuard.sol",
+          "sha256": "8d0bac508a25133c9ff80206f65164cef959ec084645d1e7b06050c2971ae0fc",
+          "license": "MIT",
+          "reason": "Required Solidity import dependency."
+        }
+      ]
+    },
+    {
+      "name": "solmate",
+      "upstream": "https://github.com/transmissions11/solmate",
+      "revision": "4b47a19038b798b4a33d9749d25e570443520647",
+      "archive_url": "https://codeload.github.com/transmissions11/solmate/tar.gz/4b47a19038b798b4a33d9749d25e570443520647",
+      "archive_prefix": "solmate-4b47a19038b798b4a33d9749d25e570443520647/",
+      "install_path": "lib/v4-periphery/lib/v4-core/lib/solmate",
+      "licenses": [
+        "AGPL-3.0-only",
+        "MIT"
+      ],
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "20b067f86de375aae6db0f283ab2e65de24d537733b89bd58432c101259d84cf",
+          "license": "upstream_license_text",
+          "reason": "Preserve original upstream license text."
+        },
+        {
+          "path": "src/auth/Owned.sol",
+          "sha256": "8ac2f2dc41ab8012e93adb3791326ffa1e4059a20c306a777109dd81816b9125",
+          "license": "AGPL-3.0-only",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/test/utils/mocks/MockERC20.sol",
+          "sha256": "9af27b7d7230e4eb62406011643a8844405493f2f6d2c10daff87a9276f65eab",
+          "license": "AGPL-3.0-only",
+          "reason": "Required Solidity import dependency."
+        },
+        {
+          "path": "src/tokens/ERC20.sol",
+          "sha256": "a3a7e839f42762ef24623581542a916e838f3c7c0bef647963d1fdad0f9d208a",
+          "license": "AGPL-3.0-only",
+          "reason": "Required Solidity import dependency."
+        }
+      ]
+    }
+  ],
+  "license_notes": [
+    "Production Hook/DirectAgentFeeHook/EpochRewards compiled metadata contains MIT-only source closures. Tests instantiate upstream PoolManager, whose source is BUSL-1.1.",
+    "Preserve both v4-core license texts. Its listed BUSL change date is 2027-06-15, subject to upstream additional grants/change-date provisions; do not represent all upstream source as MIT.",
+    "Solmate repository license is AGPL-3.0; individual imported test files carry their own SPDX labels recorded in external_solidity_import_closure. Retain both per-file attribution and repository license.",
+    "Existing generated privacy verifier is GPL-3.0 with upstream attribution. It is deferred, not relicensed or stripped of attribution.",
+    "The selected hook test closure also imports three upstream v4-core test helpers labeled UNLICENSED. Do not vendor or relicense them in the public snapshot. The optional local dependency installer fetches exact upstream files for local verification and retains their existing labels; redistribution permission for those helpers is not asserted."
+  ]
+}
